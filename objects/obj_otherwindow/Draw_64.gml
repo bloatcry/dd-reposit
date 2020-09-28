@@ -1,4 +1,3 @@
-// gotta do a bunch of math here to draw the command box correctly
 var vertSpacing = 18; // how much padding between items vertically
 var rectBottom = 0; // used to figure out the bounds of the rectangle
 var rectRight = 0;

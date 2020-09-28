@@ -1,8 +1,8 @@
-/// @description Insert description here
+/// @description Setting Characters and Cursor
 
 global.playername = "";
 
-//--CREATE CHARACTERS
+// -- CREATE CHARACTERS --
 characters[0] = "";
 for (var i = 0; i < 36; i++)
 {
@@ -12,7 +12,7 @@ for (var i = 0; i < 36; i++)
 	characters[i] = chr(48+char);
 }
 
-//--CURSOR
+// -- CURSOR --
 horz = 0;
 vert = 0;
 nmenu = 0;

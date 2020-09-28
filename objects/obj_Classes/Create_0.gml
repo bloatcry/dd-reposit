@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Set Class stats
 
 menu[0] = "Bard";
 menu[1] = "Joker";

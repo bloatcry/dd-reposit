@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Drawing Text
 
 //--CHOOSE YOUR CLASS
 var hv = camera_get_view_height(view_camera[0]);

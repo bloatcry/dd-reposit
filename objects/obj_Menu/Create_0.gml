@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Setting Important Vars
+
 global.levelNum = 0;
 global.paused = false;
 audio_play_sound(aud_Tune, 100, true);

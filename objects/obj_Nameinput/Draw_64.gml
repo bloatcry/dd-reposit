@@ -1,17 +1,18 @@
-/// @description Insert description here
+/// @description Drawing Text + Navigation
 
 var hv = camera_get_view_height(view_camera[0]);
 var wv = camera_get_view_width(view_camera[0]);
 
-//--YOUR NAME?
+// -- YOUR NAME? --
+
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_font(font_default);
 draw_set_color(c_white);
-
 draw_text(wv-580, hv-560, string("Your name?"));
 
-//--DRAW CHARACTERS
+// -- DRAW CHARACTERS --
+
 draw_set_halign(fa_left);
 var line = -2;
 var space = 0;
@@ -31,11 +32,13 @@ for (var i = 0; i < array_length_1d(characters); i++)
 }
 
 
-//--DRAW DEL and END
+// -- DRAW DEL and END --
+
 draw_text(wv/2+112, hv-320, "DEL");
 draw_text(wv/2+224, hv-320, "END");
 
-//--DRAW CURSOR
+// -- DRAW CURSOR --
+
 if (nmenu == 0)
 {
 	draw_sprite(spr_Arrow, 0, 200+(horz*50), (hv-385)+(vert*19));
@@ -85,11 +88,13 @@ else
 	}
 }
 
-//--DRAW NAME
+// -- DRAW NAME --
+
 draw_set_halign(fa_center);
 draw_text(wv/2, hv/2.3, global.playername);
 
-//--INTERACT WITH MENU
+// -- INTERACT WITH MENU --
+
 if (keyboard_check_pressed(ord("Z")))
 {
 	if (nmenu == 0)

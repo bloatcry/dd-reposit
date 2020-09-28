@@ -3,7 +3,7 @@ function scr_MMenu() {
 	{
 		case 0: 
 		{
-			room_goto_next();
+			room_goto(Genderselect)();
 			break;
 		}
 		case 1:

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Navigation Control
 
 var move = 0;
 move -= max(keyboard_check_pressed(vk_up),0);

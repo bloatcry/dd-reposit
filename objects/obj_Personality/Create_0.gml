@@ -1,77 +1,4 @@
-/// @description Insert description here
-
-//##### LAX #####
-/*
-personality[0,0] = "CAREFREE";
-personality[0,1] = "CARELESS";
-personality[0,2] = "DILIGENT";
-personality[0,3] = "EARNEST";
-personality[0,4] = "KIND";
-personality[0,5] = "LAZY";
-personality[0,6] = "LEWD";
-personality[0,7] = "LISTLESS";
-personality[0,8] = "NAIVE";
-personality[0,9] = "ORDINARY";
-personality[0,10] = "QUIET";
-personality[0,11] = "ROMANTIC";
-personality[0,12] = "SEXY";
-personality[0,13] = "SHARP";
-personality[0,14] = "SHY";
-personality[0,15] = "SILLY";
-personality[0,16] = "SMUG";
-personality[0,17] = "STOIC";
-
-//##### XTREME #####
-
-personality[1,0] = "BULLY";
-personality[1,1] = "CRYBABY";
-personality[1,2] = "FEARLESS";
-personality[1,3] = "JOCK";
-personality[1,4] = "LOUDMOUTH";
-personality[1,5] = "MACHO";
-personality[1,6] = "MEATHEAD";
-personality[1,7] = "NUTJOB";
-personality[1,8] = "REBELLIOUS";
-personality[1,9] = "TOMBOY";
-personality[1,10] = "TOUGH";
-personality[1,11] = "VALIANT";
-
-//##### PEPPY #####
-
-personality[2,0] = "CHEEKY";
-personality[2,1] = "CLUMSY";
-personality[2,2] = "FLAMBOYANT";
-personality[2,3] = "GENIUS";
-personality[2,4] = "GOOFY";
-personality[2,5] = "JOYOUS";
-personality[2,6] = "LADYLIKE";
-personality[2,7] = "PERVERTED";
-personality[2,8] = "SPUNKY";
-personality[2,9] = "ZEALOUS";
-
-//##### CRANKY #####
-
-personality[3,0] = "ARROGANT";
-personality[3,1] = "BLUNT";
-personality[3,2] = "CONTRARION";
-personality[3,3] = "HOTHEAD";
-personality[3,4] = "MEAN";
-personality[3,5] = "NOSEY";
-personality[3,6] = "RECLUSE";
-personality[3,7] = "SELFISH";
-personality[3,8] = "SORELOSER";
-personality[3,9] = "VAIN";
-
-//##### OTHER #####
-
-personality[4,0] = "COWARDLY";
-personality[4,1] = "DEVOID";
-personality[4,2] = "DUMB"
-personality[4,3] = "PARANOID";
-personality[4,4] = "PRAGMATIC";
-personality[4,5] = "WEIRD";
-personality[4,6] = "NOSEY";
-*/
+/// @description Personality Arrays + Cursor
 
 personalitylax[0] = "CAREFREE";
 //personalitylax[1] = "CARELESS";
@@ -176,7 +103,3 @@ len1 = array_length_1d(personalitylax);
 len2 = array_length_1d(personalityxtreme);
 len3 = array_length_1d(personalitypeppy);
 len4 = array_length_1d(personalitycranky);
-
-//var i = 0;
-//numberOfRows = array_length_2d(personality, i);
-//numberOfColumns = array_height_2d(personality)

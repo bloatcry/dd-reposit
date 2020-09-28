@@ -1,9 +1,8 @@
-/// @description Insert description here
+/// @description Setting Array, Space, & Mpos
 
 menu[0] = "Male";
 menu[1] = "Female";
 
 
-space = 64;
+space = 164;
 mpos = 0;
-

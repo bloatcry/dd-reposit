@@ -101,6 +101,7 @@
     {"id":{"name":"scr_charactercreation","path":"scripts/scr_charactercreation/scr_charactercreation.yy",},"order":0,},
     {"id":{"name":"scr_itemenums","path":"scripts/scr_itemenums/scr_itemenums.yy",},"order":1,},
     {"id":{"name":"scr_player_move","path":"scripts/scr_player_move/scr_player_move.yy",},"order":0,},
+    {"id":{"name":"scr_GenderMenu","path":"scripts/scr_GenderMenu/scr_GenderMenu.yy",},"order":4,},
     {"id":{"name":"scr_enemy_aggressive","path":"scripts/scr_enemy_aggressive/scr_enemy_aggressive.yy",},"order":1,},
     {"id":{"name":"font_default","path":"fonts/font_default/font_default.yy",},"order":0,},
     {"id":{"name":"obj_Menu","path":"objects/obj_Menu/obj_Menu.yy",},"order":0,},
